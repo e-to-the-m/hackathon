@@ -202,7 +202,7 @@ header .btn {
 	background-size: contain;
 }
 
-.splash + button {
+.splash + a {
 	margin-top: 40px;
 }
 
@@ -266,7 +266,6 @@ header .btn {
 .category-span {
 	margin-left: 10px;
 	max-width: 52%;
-	/*outline: 1px solid lime;*/
 }
 
 .li-brewer,
@@ -303,7 +302,6 @@ header .btn {
 }
 
 .li-beer-rating {
-	/*outline: 1px solid blue;*/
 	position: absolute;
 	display: block;
 	font-size: 20px;
