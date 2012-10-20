@@ -260,7 +260,9 @@ header .btn {
 
 .li-brewer,
 .li-beer,
-.li-style {
+.li-style,
+.li-brewer-rating,
+.li-neighborhood {
 	display: block;
 }
 
@@ -280,7 +282,8 @@ header .btn {
 }
 
 .li-beer,
-.li-style {
+.li-style,
+.li-neighborhood {
 	color: #333333;
 }
 
