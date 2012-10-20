@@ -18,21 +18,15 @@ textarea {
     color: #222;
 }
 
-body {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-a {
-    color: #00e;
-}
-
-a:visited {
-    color: #551a8b;
+a,
+a:visited,
+a:hover {
+    color: #e78226;
+    text-decoration: none
 }
 
 a:hover {
-    color: #06e;
+    opacity: .8;
 }
 
 /*
@@ -64,6 +58,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* COLORS
+background: #eff1f0
+text: #333333
+banners and callouts: #bb8058
+headers: #bd4a2d
+gray: #bec2c1
+links: #e78226
+*/
+
 /* GENERAL */
 body {
 	margin: 0;
@@ -72,12 +75,13 @@ body {
 	font-size: 14px;
 	line-height: 1.5;
 	color: #333333;
-	background-color: #ffffff;
+	background-color: ##eff1f0;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-weight: bold;
+	color: #bd4a2d;
 }
 
 h1 {
@@ -112,6 +116,21 @@ h6 {
 
 /* CONTAINERS */
 
+header {
+	padding: 3.125%;
+	background: rgb(239,240,239);
+	background: -moz-linear-gradient(top,  rgba(239,240,239,1) 79%, rgba(223,225,225,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(79%,rgba(239,240,239,1)), color-stop(100%,rgba(223,225,225,1)));
+	background: -webkit-linear-gradient(top,  rgba(239,240,239,1) 79%,rgba(223,225,225,1) 100%);
+	background: -o-linear-gradient(top,  rgba(239,240,239,1) 79%,rgba(223,225,225,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(239,240,239,1) 79%,rgba(223,225,225,1) 100%);
+	background: linear-gradient(to bottom,  rgba(239,240,239,1) 79%,rgba(223,225,225,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff0ef', endColorstr='#dfe1e1',GradientType=0 );
+	box-shadow: 0 7px 7px -7px #666666;
+	-webkit-box-shadow: 0 7px 7px -7px #666666;
+	-moz-box-shadow: 0 7px 7px -7px #666666;
+	        
+}
 .corset {
 	margin: 6.25%;
 }
@@ -119,14 +138,54 @@ h6 {
 /* GLOBAL */
 
 .logo {
-	display: inline-block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/icons/home.png);
+	background-size: contain;
 }
+
+header .btn {
+	float: right;
+	margin-left: 10px;
+	padding: .5em;
+}
+
+/* BUTTONS */
+
 .btn {
-	display: inline-block;
+	padding: 1em;
 	border-radius: 4px;
-	background-color: #52C6E9;
+	border: none;
+	background-color: #333333;
 	color: #ffffff;
-	padding: 0.5em;
+	font-weight: bold;
+}
+
+.primary {
+	display: block;
+	margin: 10px auto;
+	width: 80%;
+	background: rgb(227,157,86);
+	background: -moz-linear-gradient(top,  rgba(227,157,86,1) 0%, rgba(231,130,38,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(227,157,86,1)), color-stop(100%,rgba(231,130,38,1)));
+	background: -webkit-linear-gradient(top,  rgba(227,157,86,1) 0%,rgba(231,130,38,1) 100%);
+	background: -o-linear-gradient(top,  rgba(227,157,86,1) 0%,rgba(231,130,38,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(227,157,86,1) 0%,rgba(231,130,38,1) 100%);
+	background: linear-gradient(to bottom,  rgba(227,157,86,1) 0%,rgba(231,130,38,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e39d56', endColorstr='#e78226',GradientType=0 );
+}
+
+.secondary {
+	display: inline-block;
+	background: rgb(153,214,232);
+	background: -moz-linear-gradient(top,  rgba(153,214,232,1) 0%, rgba(82,198,233,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(153,214,232,1)), color-stop(100%,rgba(82,198,233,1)));
+	background: -webkit-linear-gradient(top,  rgba(153,214,232,1) 0%,rgba(82,198,233,1) 100%);
+	background: -o-linear-gradient(top,  rgba(153,214,232,1) 0%,rgba(82,198,233,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(153,214,232,1) 0%,rgba(82,198,233,1) 100%);
+	background: linear-gradient(to bottom,  rgba(153,214,232,1) 0%,rgba(82,198,233,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99d6e8', endColorstr='#52c6e9',GradientType=0 );
 }
 
 /* PAGE SPECIFIC */
@@ -152,6 +211,15 @@ h6 {
 	left: 0;
 	top: 0;
 	opacity: .01;
+}
+
+.title-bar {
+	padding: 1em;
+	/*background: #eff0ef;*/
+	border-radius: 4px;
+	color: #bd4a2d;
+	font-weight: bold;
+
 }
 
 
