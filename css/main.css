@@ -89,7 +89,7 @@ h1 {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 28px;
 }
 
 h3 {
@@ -109,6 +109,10 @@ h6 {
 }
 
 /* HELPER CLASSES */
+
+.mt20 {
+	margin-top: 20px;
+}
 
 .strong {
 	font-weight: bold;
@@ -313,16 +317,30 @@ header .btn {
 	float: left;
 	margin: 0 0 10px 10px;
 	max-width: 70%;
+	line-height: 1;
+}
+
+.detail-beer-rating {
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+.beer-info h3 {
+	display: inline-block;
 }
 
 .detail-label + p {
 	margin-top: 4px;
 }
 
-.btn.small-btn {
+.small-btn {
 	margin: 10px 0;
-	padding: 0.25em 0.5em;
+	padding: 0.25em;
 	width: auto;
+}
+
+.vcard h3 {
+	margin-top: 10px;
 }
 
 
