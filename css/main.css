@@ -75,7 +75,7 @@ body {
 	font-size: 14px;
 	line-height: 1.5;
 	color: #333333;
-	background-color: ##eff1f0;
+	background-color: #eff1f0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -117,7 +117,7 @@ h6 {
 /* CONTAINERS */
 
 header {
-	padding: 3.125%;
+	padding: 3.125% 6.25%;
 	background: rgb(239,240,239);
 	background: -moz-linear-gradient(top,  rgba(239,240,239,1) 79%, rgba(223,225,225,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(79%,rgba(239,240,239,1)), color-stop(100%,rgba(223,225,225,1)));
@@ -190,9 +190,15 @@ header .btn {
 
 /* PAGE SPECIFIC */
 .splash {
-	width: 100%;
-	height: auto;
-	/*background: url(../img/) no-repeat;*/
+	width: 242px;
+	height: 200px;
+	margin: 0 auto;
+	background: url(../img/icons/logo-lg.png) no-repeat center;
+	background-size: contain;
+}
+
+.splash + button {
+	margin-top: 40px;
 }
 
 .detail-label {
@@ -255,7 +261,7 @@ header .btn {
 .category-span {
 	margin-left: 10px;
 	max-width: 52%;
-	/*outline: 1px solid lime*/;
+	/*outline: 1px solid lime;*/
 }
 
 .li-brewer,
@@ -294,7 +300,7 @@ header .btn {
 	font-size: 20px;
 	font-weight: bold;
 	right: 40px;
-	top: 37px;
+	top: 15px;
 }
 
 /* Detail Pages */
