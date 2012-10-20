@@ -22,7 +22,7 @@ a,
 a:visited,
 a:hover {
     color: #e78226;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover {
@@ -165,6 +165,12 @@ header .btn {
 	color: #ffffff;
 	font-weight: bold;
 	text-align: center;
+}
+
+.btn:hover,
+.btn:visited,
+.btn:active {
+	color: #ffffff;
 }
 
 .primary {
