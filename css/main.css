@@ -324,6 +324,18 @@ header .btn {
 	line-height: 1;
 }
 
+.detail-rating,
+.li-brewer-rating {
+	background: url(../img/icons/4star.png) no-repeat left center;
+}
+
+.detail-rating,
+.li-brewer-rating {
+	width: 100px;
+	height: 14px;
+	background-size: contain;
+}
+
 .detail-beer-rating {
 	line-height: 1.5;
 	font-weight: bold;
@@ -351,6 +363,12 @@ header .btn {
 	margin-top: 10px;
 }
 
+.show-reviews {
+	display: block;
+	height: 44px;
+	margin-top: 20px;
+	text-align: center;
+}
 
 
 
