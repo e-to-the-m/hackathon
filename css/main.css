@@ -298,6 +298,10 @@ header .btn {
 	color: #333333;
 }
 
+.li-style {
+	font-size: smaller;
+}
+
 .li-beer-rating {
 	/*outline: 1px solid blue;*/
 	position: absolute;
@@ -336,7 +340,11 @@ header .btn {
 .small-btn {
 	margin: 10px 0;
 	padding: 0.25em;
-	width: auto;
+	width: 100px;
+}
+
+.adr + .small-btn {
+	width: 80px;
 }
 
 .vcard h3 {
