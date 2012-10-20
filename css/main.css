@@ -222,7 +222,77 @@ header .btn {
 
 }
 
+/* List Pages */
 
+.ul-category {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.li-category {
+	position: relative;
+	padding: 20px;
+	background: url(../img/icons/right.png) no-repeat right center;
+	background-size: 40px auto;
+	border-bottom: 1px solid #eeeeee;
+	box-shadow: 0 6px 6px -8px #666666;
+	-webkit-box-shadow: 0 6px 6px -8px #666666;
+	-moz-box-shadow: 0 6px 6px -8px #666666;
+}
+
+.li-category a,
+.li-category a:active,
+.li-category a:hover {
+	text-decoration: none;
+}
+
+.li-thumb,
+.category-span {
+	float: left;
+}
+
+.category-span {
+	margin-left: 10px;
+	max-width: 52%;
+	/*outline: 1px solid lime*/;
+}
+
+.li-brewer,
+.li-beer,
+.li-style {
+	display: block;
+}
+
+.li-brewer {
+	font-size: smaller;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.li-brewer,
+.li-beer-rating {
+	color: #bd4a2d;
+}
+
+.li-beer {
+	font-size: larger;
+}
+
+.li-beer,
+.li-style {
+	color: #333333;
+}
+
+.li-beer-rating {
+	/*outline: 1px solid blue;*/
+	position: absolute;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	right: 40px;
+	top: 37px;
+}
 
 
 
